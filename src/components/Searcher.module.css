@@ -1,0 +1,58 @@
+.dropzone {
+  max-width: 800px;       
+  width: 50%;             
+  margin: 2rem auto;      
+  padding: 5rem 2rem 2rem 2rem; 
+  border: 2px dashed #999; 
+  border-radius: 8px;     
+  text-align: center;     
+  background-color: #f9f9f9; 
+  transition: border-color 0.3s, background-color 0.3s;
+
+  /*image*/
+  background-image: url('https://img.icons8.com/ios/250/000000/upload-2.png');
+  background-repeat: no-repeat;
+  background-position: center top; 
+  background-size: 80px 80px;  
+}
+
+.dropzone:hover {
+  border-color: #666;    
+  background-color: #f1f1f1; 
+}
+
+.plantResults{
+  max-width: 800px;       
+  width: 100%;             
+  margin: 2rem auto;      
+  padding: 5rem 2rem 2rem 2rem; 
+  text-align: center;     
+}
+
+.plantLinkBig {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: all 0.3s ease;
+}
+
+.plantLinkBig:hover {
+  color: #9a9999; 
+  font-size: 2.0rem; 
+}
+
+.plantLinkSmall {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.plantLinkSmall:hover {
+  color: #404040; 
+  font-size: 1.0rem; 
+}
+
+.plantInfo{
+  text-align: left
+}
